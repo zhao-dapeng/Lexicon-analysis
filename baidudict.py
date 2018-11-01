@@ -56,7 +56,7 @@ class Baidu(object):
         txtf.close()
 
 if __name__ == '__main__':
-    path = r'F:\作业\词库\城市区划\安徽\安徽安康公交站.bdict'
+    path = r'F:安徽安康公交站.bdict'
     bd = Baidu(path)
     bd.be2le()
     bd.le2txt()
